@@ -11,14 +11,15 @@ echo 'Finished cloning'
 FILEPATH="student-submission/*.java"
 echo $FILEPATH
 
-if [ -d $FILEPATH ]
+if [ -f $FILEPATH ]
 then
     echo $FILEPATH
 else
     echo 'didnt find file'
     exit
 fi
-echo "test"
+
+
 
 # Draw a picture/take notes on the directory structure that's set up after
 # getting to this point
