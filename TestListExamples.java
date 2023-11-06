@@ -9,6 +9,7 @@ class IsMoon implements StringChecker {
   }
 }
 //sdfasdfasdf
+//test comment
 public class TestListExamples {
   @Test(timeout = 500)
   public void testMergeRightEnd() {
