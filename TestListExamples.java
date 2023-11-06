@@ -8,7 +8,7 @@ class IsMoon implements StringChecker {
     return s.equalsIgnoreCase("moon");
   }
 }
-
+//sdfasdfasdf
 public class TestListExamples {
   @Test(timeout = 500)
   public void testMergeRightEnd() {
